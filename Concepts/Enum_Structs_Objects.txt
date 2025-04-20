@@ -1,0 +1,67 @@
+An Enum is a special data type that enables you to define a set of named constants. 
+Think of it as a collection of related values that are treated as distinct types.
+
+eg: 
+In Python : 
+from enum import Enum
+
+class DaysOfWeek(Enum):
+    MONDAY = 1
+    TUESDAY = 2
+    WEDNESDAY = 3
+    THURSDAY = 4
+    FRIDAY = 5
+    SATURDAY = 6
+    SUNDAY = 7
+
+
+Enum:
+A fixed set of constant values
+Each value is a distinct type
+Used when you have a fixed set of options/choices
+Cannot be extended after definition
+Values are typically comparable and hashable
+enums are generally used to define statuses of an object or type of a particular object
+
+
+Struct:
+A composite data type that groups related data together
+Can have different data types as members
+Typically used for data organization
+Members can be modified (unless explicitly made immutable)
+More like a template for data organization
+
+Object:
+Most general form of data structure
+Can have both data (attributes) and behavior (methods)
+Can be instantiated multiple times
+Fully mutable by default
+Supports inheritance and polymorphism
+
+
+
+
+Key Differences:
+
+Purpose:
+Enums: Represent a fixed set of choices or constants
+Structs: Organize related data together
+Objects: Combine data and behavior in a single unit
+
+
+Mutability:
+Enums: Immutable
+Structs: Can be mutable or immutable (depending on implementation)
+Objects: Typically mutable
+
+
+Functionality:
+Enums: Limited to representing constant values
+Structs: Focus on data organization
+Objects: Can have both data and methods
+
+
+Use Cases:
+Enums: Status codes, days of week, card suits, etc.
+Structs: Coordinate points, database records, configuration settings
+Objects: Complex entities with behavior like users, vehicles, game characters
