@@ -1,9 +1,12 @@
 Mostly Free Resources
 
-Really good Website(with images and explanation and navigation) : https://refactoring.guru/design-patterns/composite
+Really good Website(with images and explanation and navigation) for design patterns : https://refactoring.guru/design-patterns/composite
 
 ALL concepts and problems and solutions in one place with progress tracking : https://codewitharyan.com/system-design/low-level-design
 
 Good Youtube playlists : 
 https://youtube.com/playlist?list=PL12BCqE-Lp650Cg6FZW7SoZwN8Rw1WJI7&si=rvcSUkxwBM8FP1QI
 
+
+Good Git Repos for referrence: 
+https://github.com/ashishps1/awesome-low-level-design.git

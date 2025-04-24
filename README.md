@@ -12,8 +12,3 @@ The Steps I follow:
 4. make a use case diagram for all the actors and the functions to find what functionsare only performed by one actor, and which ones are shared
 
 
-
-
-
-Design Patterns: 
-SOLID Properties: 
